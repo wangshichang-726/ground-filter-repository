@@ -1,4 +1,4 @@
-# plane_fit_ground_filter---地面平面拟合分割算法
+# pmf_fit_ground_filter---渐近形态学滤波地面分割算法
 
 This is a ROS package for 3D lidar recognition and segmentation of ground, such as velodyne (VLP16) and robosense(16 channels) sensor.
 
@@ -10,15 +10,15 @@ $ mkdir -p catkin_ws/src
 $ cd catkin_ws
 $ catkin_make
 $ cd src
-$ git clone https://github.com/walterchenchn/plane_fit_ground_filter.git
+$ git clone https://github.com/walterchenchn/pmf_fit_ground_filter.git
 $ cd catkin_ws
 $ catkin_make
 ```
-When you application this package, you need to modify the `"plane_ground_filter.launch"`, like `sensor_height` and so on.
+When you application this package, you need to modify the `"pmf_ground_filter.launch"`, like `sensor_height` and so on.
 
 ```
 $ source devel/setup.bash
-$ roslaunch plane_ground_filter plane_ground_filter.launch
+$ roslaunch pmf_ground_filter pmf_ground_filter.launch
 ```
 In a new terminal.
 ```

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pmf_ground_filter</name>
+  <version>0.1.0</version>
+  <description>ROS package for ground filtering using Progressive Morphological Filter</description>
+  
+  <!-- Maintainer information -->
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  
+  <!-- License information -->
+  <license>BSD</license>
+
+  <!-- Dependencies on other ROS packages -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend> <!-- PCL ROS integration package -->
+  
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rosconsole</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>pcl_ros</exec_depend> <!-- PCL ROS integration package -->
+</package>
